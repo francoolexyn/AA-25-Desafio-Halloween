@@ -4,6 +4,14 @@ Aplicación académica ejecutable en XAMPP: PHP 8.1 o superior, MySQL 8 o MariaD
 
 ## Instalación en Windows / XAMPP
 
+Con Git podés copiar el proyecto directamente en la carpeta correcta:
+
+```bat
+git clone https://github.com/francoolexyn/AA-25-Desafio-Halloween.git C:\xampp\htdocs\halloween
+```
+
+Después continuá desde el paso 2. Si descargás el ZIP desde GitHub, renombrá la carpeta extraída a `halloween` antes de copiarla.
+
 1. Descomprimí y copiá **la carpeta `halloween`** dentro de `C:\xampp\htdocs\`. Debe existir `C:\xampp\htdocs\halloween\index.html`.
 2. En el panel de XAMPP iniciá **Apache** y **MySQL**.
 3. Abrí `http://localhost/phpmyadmin`, entrá en **Importar**, seleccioná `database/halloween.sql` y ejecutá la importación. El archivo crea la base `halloween`, las tres tablas y tres disfraces de ejemplo. Importalo una sola vez en una instalación nueva.
