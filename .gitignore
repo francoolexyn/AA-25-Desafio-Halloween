@@ -1,0 +1,13 @@
+# Credenciales y configuración personal
+config/config.local.php
+.env
+.env.*
+
+# Archivos locales
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.zip
+*.sql.bak
